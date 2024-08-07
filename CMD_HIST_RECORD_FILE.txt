@@ -1,0 +1,69 @@
+show help
+.
+cls
+.
+show help
+.
+.
+.
+.
+config tcp-server aaaa
+config console name LoiND5
+.
+config tcp-server hpp
+.
+config tcp-server name start
+.
+cls
+.
+config tcp-server s1
+config tcp-server s2 start
+cls
+.
+config tcp-server s1
+config tcp-server s1 start
+.
+config tcp-server s1 /
+start
+.
+config tcp-server s1 /
+start
+.
+conf tcp-ser s1 /
+start
+cd..
+s2
+[A[B[B[B
+.
+cls
+.
+conf tcp-ser s1 /
+start
+cls
+conf tcp-ser s1 /
+start
+cd..
+s2 127.0.0.1 6000
+s2 start
+.
+show tcp-server s1
+config tcp-ser s1 start
+config tcp-server s1
+config tcp-server s1 start
+.
+.
+conf tcp-ser s1
+conf tcp-ser s1 start
+show tcp-server s1
+config tcp-server s1 /
+start
+cd../../
+cd../
+cd../
+show tcp-server s1
+config tcp-server s1 /
+start
+cd../
+cd../
+cd../
+show tcp- s1
